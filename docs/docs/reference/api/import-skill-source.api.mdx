@@ -1,0 +1,71 @@
+---
+id: import-skill-source
+title: "Import Skill Source"
+description: "Import selected skills from a repo/marketplace as registry skills."
+sidebar_label: "Import Skill Source"
+hide_title: true
+hide_table_of_contents: true
+api: eJzlV8FuGzcQ/RViTi2wkRyjJ/VSNzEQIW1jWE57sAVhzB1pGXNJhuTaUYQF+hH9wn5JMeRKWsmxnKpoL9VFu+TwcTjvzXB2BREXAUbXMLlTWgeYFlBSkF65qKyBEYxrZ30UgTTJSKUIyU7Mva0FCk/ODmv0dxSdRkkCg/C0UCH6ZWc6uDE35hxltcW4R61KIdGUqsRI4pakrSkINML6UhlcLxYP1t/NtX24Md/cv/z2e+G8vSeDRpJQvJO0vmSnrAhLIxlS2PmcvDD0IO7JB2VNEBoj+cGNmRh0obLxhTV6Kf78/Q9hbKyUWQjfmO5MsSIRbOMlDaAA68gjR2JcwghUisUsuTbLRlCAp48NhfijLZcwWoG0JpKJ/IjOaSXT+uGHwOFcQZAV1chPzjN6VBT4jSM5a7zm57h0BCMI0SuzgAKiipoHLslZ8d5raHnXedrCLN/NYXS9v6gtNiOm0RraaR9mzggOYxV2MVSkOjz2oC3WA+g9Lg+CXyTUdrvE3n4gGbs4KU8lq21z2t7KpMBJimoW3WUOLLRt218dfUNpIDhrQo7e6ckJ/+1Kd9JISSHMGy0uO2Mo/it+pK1rFWehwmNpepUQxKRCxsva4/P3aNp1kQmdKTNjVw+5yRSJsRHsLkOvk2ymymN9/a2DEONyBzHoZvGPMScM0hZgsKZjwX7hte1ecTsO6nUP4jmd71DSwxh3bCbNP8qvx3bAns+x0RFG19O2gHCnnPtX1KBCaDLCE8DSlnQI8BXPtwXUFAIuDpr+3Jl01ehYRvgIz1KR3N56tV94xnzsQ0zksOzycCT7k0zec+R3Zn9vzy9V1nU5DYzRpnL63enp44L5K9/LqRyKc++tP75alhRR6QMi0lbuzH4F7cpEWpCHdvp0yH6y2cGkv7D4Su1lk6dNUzDEFc9yghjXpIBswpsGuObHTz2YDT3bxDCRPsVnlcqxye53dj0qtxRlhp4OxetMwZc2W5u8ubq6eASY9VFTrCz3PM4GXpLTE4a5pxvm5ofTIZDnPitRl65HGKJTibf8WsXowmg4pGYgtW3KAS7IRBygyoZTxpCNV3GZQM4uxm9p+YawJJ8E3zOYsNyygHbNNkFHp94ShyFfFnDWxMp69Tmrgsljl/IqPicL+XLbwJ1/wtpp2r3wt4JITdf2teugrtcj06SOue2L4yydVpxdjGG/td6Z4kRDmXS1dj1NQ7EXx234oACqU5pBJKx/2MywKrrmF0ZwMng5OEkl1oZYo+lt0TX3qRCJybqh3bsjNyXgf/4t0CmMU3joNKpUZLqOMKfHNeRjclp0CTItoOIMGl3DanWLgd573bY8/LEhz4qfFnCPXuEtyyXd7dVa+yu4o+W6cJj4IlUgNtdN1vpeQeakyyvOpCQXD9pOe0l+8W5yBQXcdp8wdbrhweMDax4fYATpW4hX52aYx1ag0SyadMVDxuTfXwcG9MM=
+sidebar_class_name: "post api-method"
+info_path: reference/api/agenta-api
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Import Skill Source"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/skills/sources"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Import selected skills from a repo/marketplace as registry skills.
+
+Each selected valid candidate becomes an ordinary skill workflow
+(v1); provenance is recorded so sync can offer new versions later.
+Snapshot-only — nothing runs from the source.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+>
+  <Translate id="theme.openapi.request.title">Request</Translate>
+</Heading>
+
+<ParamsDetails>
+  
+</ParamsDetails>
+
+<RequestSchema
+  {...require("./import-skill-source.RequestSchema.json")}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  {...require("./import-skill-source.StatusCodes.json")}
+>
+  
+</StatusCodes>
+
+
+      
